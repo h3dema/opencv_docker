@@ -12,7 +12,9 @@ sudo apt-get install -y docker.io
 
 ## Installing and running the container ##
 
+
 ```bash
-docker build -t opencv github.com/h3dema/opencv_docker
-docker run -it opencv
+git clone https://github.com/h3dema/opencv_docker.git
+cd opencv_docker
+bash run.sh
 ```
