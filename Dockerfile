@@ -14,3 +14,5 @@ RUN cd /usr/src/ && \
     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local ..  && \
     make && \
     make install
+
+COPY program_my_cam.py /
